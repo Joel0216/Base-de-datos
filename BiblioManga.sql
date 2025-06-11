@@ -1,3 +1,12 @@
+CREATE TABLE mangas (
+    ID_manga INT PRIMARY KEY NOT NULL,
+    titulo VARCHAR(255) NOT NULL,
+    genero VARCHAR(100),
+    volumenes INT,
+    autor VARCHAR(255),
+    en_emision BOOLEAN
+);
+
 USE blibliomanga;
 
 INSERT INTO Manga (id_manga, titulo, genero, volumenes, autor, en_emision) VALUES
